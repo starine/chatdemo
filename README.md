@@ -48,7 +48,7 @@ INFO[0000] started                                       id=demo listen=":8000" 
 
 ## 1.3. 测试服务端
 
-打开两个websocket测试界面（http://coolaf.com/tool/chattest），并分别输入指定URL：
+打开两个websocket测试界面（ http://coolaf.com/tool/chattest ）, 并分别输入指定URL：
 
 ```html
 ws://localhost:8000?user=userA
@@ -70,6 +70,7 @@ INFO[0052] recv message 你好， 我是用户B from userB
 INFO[0052] send to userA : 你好， 我是用户B -- FROM userB   
 ```
 如下所示：
+https://user-images.githubusercontent.com/42311991/184083831-9f666a28-c1a4-4406-8dc4-b13b9c85423c.mp4
 
 ## 1.3. 测试客户端
 启动服务端：
@@ -102,3 +103,4 @@ INFO[0050] ping...
 INFO[0050] recv a pong...                 
 ```
 如下所示：
+https://user-images.githubusercontent.com/42311991/184084367-fb27fa81-4d85-421d-8764-5fe98ad2b390.mp4
